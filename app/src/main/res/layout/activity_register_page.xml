@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/log"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/loginText"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/Register" />
+
+    <EditText
+        android:textColorHint="@color/white"
+
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:maxEms="30"
+        android:minEms="20"
+        android:autofillHints="emailAddress"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:hint="@string/Email"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:maxEms="30"
+        android:minEms="20"
+        android:autofillHints="password"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:hint="@string/Password"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerbutton"
+        android:backgroundTint="@color/white"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Register" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

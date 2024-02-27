@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="splashDes">Splash Screen Image</string>
+    <string name="Login">Login</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Register">Register</string>
+    <string name="loginInfo">Don\'t have an account Click below to register</string>
+    <string name="don_t_starve_just_order">Don’t starve, just order</string>
+    <string name="or">--------Or--------</string>
+    <string name="sign_in_with_email">Sign In With Email</string>
+    <string name="signin_with_phone">signin With Phone</string>
+    <string name="sign_up">sign Up</string>
+    <string name="connect_as_chef">Connect as Chef</string>
+    <string name="connect_as_customer">Connect as Customer</string>
+    <string name="connect_as_delivery_person">connect as delivery person</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone">Phone</string>
+    <string name="house_street_no">House/Street No</string>
+    <string name="area">Area/District</string>
+    <string name="state">State</string>
+</resources>
